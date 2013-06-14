@@ -39,21 +39,6 @@ public class Juego {
 		
 	}
 	
-//	public void modificarCelula(int altura, int anchura){
-//		if (matriz[altura][anchura].equalsIgnoreCase("Muerta"))
-//			matriz[altura][anchura] = "Viva";
-//		else matriz[altura][anchura] = "Muerta";
-//	}	
-	
-//	public String[][] getMatriz(){
-//		String copia[][] = new String[matriz.length][matriz[0].length];
-//		for(int i=0;i<matriz.length;i++){
-//			copia[i]=matriz[i].clone();
-//		}
-//		return copia;
-//	}
-	
-	
 	public void siguienteGen(){
 		int contaVivas;
 		//supervivencia

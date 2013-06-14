@@ -36,26 +36,11 @@ public class Tabla extends JPanel implements MouseListener{
 						g.setColor(Color.GREEN);
 						g.fillOval(x, y, 20, 20);
 					}
-//					if (celula.equals("Viva") && i>2){g.setColor(Color.BLUE); g.fillOval(x, y, 20, 20);}
-//					if (celula.equals("Viva") && i>4){g.setColor(Color.RED); g.fillOval(x, y, 20, 20);}
-//					if (celula.equals("Viva") && i>6){g.setColor(Color.PINK); g.fillOval(x, y, 20, 20);}
-//					if (celula.equals("Viva") && i>8){g.setColor(Color.ORANGE); g.fillOval(x, y, 20, 20);}
-//					if (celula.equals("Viva") && i>10){g.setColor(Color.YELLOW); g.fillOval(x, y, 20, 20);}
-//					if (celula.equals("Viva") && i>12){g.setColor(Color.CYAN); g.fillOval(x, y, 20, 20);}
-//					if (celula.equals("Viva") && i>14){g.setColor(Color.WHITE); g.fillOval(x, y, 20, 20);}
-//					if (celula.equals("Viva") && i>16){g.setColor(Color.MAGENTA); g.fillOval(x, y, 20, 20);}
-
+					
 					if (celula.equals("Muerta")){
 						g.setColor(Color.GRAY);
 						g.fillOval(x, y, 20, 20);
 					}
-					
-//					if (a != 0 & b != 0){
-//						Celula = 
-//						g.fillOval(a, b, 20, 20);
-//						g.setColor(Color.GREEN);
-//						
-//					}
 					
 				}
 		}
